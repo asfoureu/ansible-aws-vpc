@@ -16,8 +16,8 @@
         state: "{{state}}"
       register: vpcout
 
-    - debug:
-        var: vpcout
+    #- debug:
+    #    var: vpcout
 
     - name: Create Public Subnet 1 in Zone1
       ec2_vpc_subnet:
@@ -27,6 +27,6 @@
          state: "{{state}}"
          cidr: "{{PubSub1Cidr}}"
          map_public: yes
-         resource_tag:
+         resource_tags:
            Name: vprofile-pubsub1
       register: pubsub1_out
