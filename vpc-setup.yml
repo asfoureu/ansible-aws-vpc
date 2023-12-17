@@ -155,7 +155,7 @@
         - igw_out.gateway_id
         - pubRT_out.route_table.id
         - NATGW_out.nat_gateway_id
-        - privVRT_out.route_table.id
+        - privRT_out.route_table.id
 
     - set_fact:
         vpc_id: "{{ vpcout.vpc.id }}"
@@ -168,7 +168,7 @@
         igwid: "{{ igw_out.gateway_id }}"
         pubRTid: "{{ pubRT_out.route_table.id }}"
         NATGWid: "{{ NATGW_out.nat_gateway_id }}"
-        privRTid: "{{ privVRT_out.route_table.id }}"
+        privRTid: "{{ privRT_out.route_table.id }}"
         cacheable: yes
     - name: Create variables file for VPC output
       copy:
