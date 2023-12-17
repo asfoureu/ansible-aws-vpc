@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7132b3fb-7e3b-4306-b666-38644a80174e" name="Changes" comment="Sub1,2,3 pub">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="7132b3fb-7e3b-4306-b666-38644a80174e" name="Changes" comment="IGW">
       <change beforePath="$PROJECT_DIR$/vpc-setup.yml" beforeDir="false" afterPath="$PROJECT_DIR$/vpc-setup.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +79,7 @@
       <updated>1702818155087</updated>
       <workItem from="1702818157991" duration="1588000" />
       <workItem from="1702840163277" duration="1431000" />
-      <workItem from="1702841608193" duration="6070000" />
+      <workItem from="1702841608193" duration="6210000" />
     </task>
     <task id="LOCAL-00001" summary="Variables file">
       <option name="closed" value="true" />
@@ -178,7 +177,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702847596355</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="IGW">
+      <option name="closed" value="true" />
+      <created>1702848208781</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1702848208781</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +197,7 @@
     <MESSAGE value="VPC setup1" />
     <MESSAGE value="Sub1" />
     <MESSAGE value="Sub1,2,3 pub" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sub1,2,3 pub" />
+    <MESSAGE value="IGW" />
+    <option name="LAST_COMMIT_MESSAGE" value="IGW" />
   </component>
 </project>
